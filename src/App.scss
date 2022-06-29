@@ -1,0 +1,42 @@
+.App {
+  width: 1000px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  margin-left: -51px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 15px;
+
+  &.normalaise {
+    margin-left: 0;
+  }
+}
+
+.main {
+  &>*+* {
+    margin-top: 21px;
+  }
+}
+
+.firstForm {
+  margin-top: 31px;
+}
+
+.SendBtn {
+  margin-top: 70px;
+}
+
+.registration {
+  position: relative;
+  top: 0;
+  left: -51px;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.InputGroup {
+  display: flex;
+}
